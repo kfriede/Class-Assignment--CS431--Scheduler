@@ -1,0 +1,79 @@
+.job1 {
+    -fx-background-color:rgba(0,0,0,0.7);
+}
+
+.job2 {
+    -fx-background-color:rgba(0,0,64,0.7);
+}
+
+.job3 {
+    -fx-background-color:rgba(0,0,128,0.7);
+}
+
+.job4 {
+    -fx-background-color:rgba(0,64,0,0.7);
+}
+
+.job5 {
+    -fx-background-color:rgba(0,64,64,0.7);
+}
+
+.job6 {
+    -fx-background-color:rgba(0,64,128,0.7);
+}
+
+.job7 {
+    -fx-background-color:rgba(0,128,0,0.7);
+}
+
+.job8 {
+    -fx-background-color:rgba(0,128,64,0.7);
+}
+
+.job9 {
+    -fx-background-color:rgba(0,128,128,0.7);
+}
+
+.job10 {
+    -fx-background-color:rgba(64,0,0,0.7);
+}
+
+.job11 {
+    -fx-background-color:rgba(64,0,64,0.7);
+}
+
+.job12 {
+    -fx-background-color:rgba(64,0,128,0.7);
+}
+
+.job13 {
+    -fx-background-color:rgba(64,64,0,0.7);
+}
+
+.job14 {
+    -fx-background-color:rgba(64,64,64,0.7);
+}
+
+.job15 {
+    -fx-background-color:rgba(64,64,128,0.7);
+}
+
+.job16 {
+    -fx-background-color:rgba(64,128,0,0.7);
+}
+
+.job17 {
+    -fx-background-color:rgba(64,128,64,0.7);
+}
+
+.job18 {
+    -fx-background-color:rgba(64,128,128,0.7);
+}
+
+.job19 {
+    -fx-background-color:rgba(128,0,0,0.7);
+}
+
+.job20 {
+    -fx-background-color:rgba(128,0,128,0.7);
+}

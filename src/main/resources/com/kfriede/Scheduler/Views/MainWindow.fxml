@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kfriede.Scheduler.Controllers.MainWindow">
+   <children>
+      <VBox prefHeight="370.0" prefWidth="595.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ToolBar prefHeight="40.0" prefWidth="200.0" VBox.vgrow="NEVER">
+              <items>
+                <Button fx:id="selectFileButton" mnemonicParsing="false" onAction="#openFileButtonAction" text="Select File" />
+              </items>
+            </ToolBar>
+            <HBox VBox.vgrow="ALWAYS">
+               <children>
+                  <AnchorPane fx:id="chartAnchor" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label layoutX="290.0" layoutY="267.0" text="Please Select A File" textAlignment="CENTER" textFill="#0000009b">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" />
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="NEVER">
+                     <children>
+                        <ListView fx:id="averagesListView" layoutX="2.0" layoutY="2.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
